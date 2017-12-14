@@ -1,0 +1,925 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- The above 2 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Note there is no responsive meta tag here -->
+
+    <link rel="icon" href="img/logo.png">
+
+    <title>Super Bitcoin</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]>
+    <script src="js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="js/ie-emulation-modes-warning.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+
+<div class="navbar my-navbar  navbar-fixed-top">
+    <a class="navbar-brand my-brand visible-sm"><img src="img/top_logo.png"></a>
+    <div class="container">
+        <div class="navbar-header">
+            <button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand my-brand hidden-sm"><img src="img/top_logo.png"></a>
+        </div>
+        <div class="navbar-collapse collapse" role="navigation">
+
+            <ul class="nav navbar-nav navbar-right my-nav">
+                <li><a id="home-btn" class="violet">首页</a></li>
+                <li><a id="feature-btn">特点</a></li>
+                <li><a id="roadmap-btn">路线图</a></li>
+                <li><a id="team-btn">团队</a></li>
+                <li><a id="support-btn">支持</a></li>
+                <li><a id="faq-btn">FAQ</a></li>
+                <li><a id="resource-btn">资源</a></li>
+                <li class="li-cn"><a class="violet" href="index_cn.html">中文</a></li>
+                <li class="li-line hidden-sm hidden-xs">
+                    <a><i class="line"></i></a>
+                </li>
+                <li class="li-en"><a href="index.html">EN</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+<div class="banner">
+    <div class="container">
+        <img class="big-logo" src="img/big-logo.png">
+        <br/>
+        <img class="font-logo" src="img/font-logo.png">
+        <h4 class="banner_h4">Make Bitcoin Great Again</h4>
+    </div>
+</div>
+<div class="feature">
+    <div class="container">
+        <div id="feature">
+        </div>
+        <h2 class="feature_title">特点</h2>
+        <div class="row">
+            <div class="col-sm-6 col-md-3">
+                <div class="feature-yuan">
+                    <span>01</span>
+                </div>
+                <p class="feature_p">智能合约</p>
+            </div>
+            <div class="col-sm-6 col-md-3">
+                <div class="feature-yuan">
+                    <span>02</span>
+                </div>
+                <p class="feature_p">闪电网络</p>
+            </div>
+            <div class="clearfix visible-xs-block"></div>
+            <div class="col-sm-6 col-md-3">
+                <div class="feature-yuan">
+                    <span>03</span>
+                </div>
+                <p class="feature_p">零知识证明</p>
+            </div>
+            <div class="col-sm-6 col-md-3">
+                <div class="feature-yuan">
+                    <span>04</span>
+                </div>
+                <p class="feature_p">大区块</p>
+            </div>
+
+        </div>
+    </div>
+</div>
+<div class="what">
+    <div class="container">
+        <h2 class="feature_title">关于SBTC</h2>
+        <p class="what_min_title" style="line-height: 1.8">
+            记住:"这只是一个实验"<br/>我们尝试实现比特币社区提出的一些改进方案 <br/>
+            伟大的思想只有付诸行动才能成为壮举</p>
+        <div class="row">
+            <div class="col-md-4">
+                <img class="what-img" src="img/what1.png">
+                <p class="what2-title">隐私</p>
+                <p class="feature_p">
+                    加入零知识证明<br/>保护隐私</p>
+            </div>
+            <div class=" col-md-4">
+                <img class="what-img" src="img/what2.png">
+                <p class="what2-title">扩展性</p>
+                <p class="feature_p">
+                    支持图灵完备的智能合约<br/>
+                    增加BTC的可拓展性
+                </p>
+            </div>
+            <div class="clearfix visible-xs-block"></div>
+            <div class=" col-md-4">
+                <img class="what-img" src="img/what3.png">
+                <p class="what2-title">大容量</p>
+                <p class="feature_p">
+                    扩大区块为8MB
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="roadmap">
+    <div class="container">
+        <div id="roadmap"></div>
+        <div class="roadmap-bg-zone">
+        </div>
+        <h2 class="feature_title" style="color: #fff">路线图</h2>
+        <div id="carousel-example-generic" class="carousel slide hidden-xs hidden-sm" data-ride="carousel"
+             style="height: 316px;overflow: hidden">
+            <!-- Indicators -->
+            <!--<ol class="carousel-indicators">
+                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+            </ol>
+-->
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner" role="listbox">
+                <div class="item active">
+                    <div class="row">
+                        <!--<div class="col-sm-6 col-md-3">
+                            <p class="roadmap-time">2017.11.10</p>
+                            <p class="roadmap_p">The project to establish</p>
+                        </div>
+                        <div class="col-sm-6 col-md-3">
+                            <p class="roadmap-time">2017.11.15</p>
+                            <p class="roadmap_p">Official website</p>
+                        </div>-->
+                        <div class="col-sm-6 col-md-3">
+                            <p class="roadmap-time">2017.12.12</p>
+                            <p class="roadmap_p">在498888高度分叉<br/>开始我们伟大的试验</p>
+                        </div>
+                        <div class="col-sm-6 col-md-3">
+                            <p class="roadmap-time">2018.3.31</p>
+                            <p class="roadmap_p">上线智能合约<br/>增加BTC的可拓展性</p>
+                        </div>
+                        <div class="col-sm-6 col-md-3">
+                            <p class="roadmap-time">2018.5.31</p>
+                            <p class="roadmap_p">上线零知识证明</p>
+                        </div>
+                        <div class="col-sm-6 col-md-3">
+                            <p class="roadmap-time">2018.11.30</p>
+                            <p class="roadmap_p">移除动态检查点保护功能</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="item">
+                     <div class="row">
+                         <div class="col-sm-6 col-md-3">
+                         </div>
+                         <div class="col-sm-6 col-md-3">
+                             <p class="roadmap-time">2018.5.31</p>
+                             <p class="roadmap_p">On-line zero knowledge of proof</p>
+                         </div>
+                         <div class="col-sm-6 col-md-3">
+                             <p class="roadmap-time">2018.11.30</p>
+                             <p class="roadmap_p">Remove dynamic checkpoint protection to achieve full centering</p>
+                         </div>
+                     </div>
+                 </div>-->
+            </div>
+        </div>
+        <div id="carousel-example-generic2" class="carousel slide visible-sm " data-ride="carousel"
+             style="height: 316px;overflow: hidden">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#carousel-example-generic2" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-example-generic2" data-slide-to="1"></li><!--
+                <li data-target="#carousel-example-generic2" data-slide-to="2"></li>-->
+            </ol>
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner" role="listbox">
+                <!--<div class="item active">
+                    <div class="row">
+                        <div class="col-sm-6 col-md-3">
+                            <p class="roadmap-time">2017.11.10</p>
+                            <p class="roadmap_p">The project to establish</p>
+                        </div>
+                        <div class="col-sm-6 col-md-3">
+                            <p class="roadmap-time">2017.11.15</p>
+                            <p class="roadmap_p">Official website</p>
+                        </div>
+                    </div>
+                </div>-->
+                <div class="item active">
+                    <div class="row">
+                        <div class="col-sm-6 col-md-3">
+                            <p class="roadmap-time">2017.12.12</p>
+                            <p class="roadmap_p">在498888高度分叉<br/>开始我们伟大的试验</p>
+                        </div>
+                        <div class="col-sm-6 col-md-3">
+                            <p class="roadmap-time">2018.3.31</p>
+                            <p class="roadmap_p">上线智能合约<br/>增加BTC的可拓展性</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="row">
+                        <div class="col-sm-6 col-md-3">
+                            <p class="roadmap-time">2018.5.31</p>
+                            <p class="roadmap_p">上线零知识证明</p>
+                        </div>
+                        <div class="col-sm-6 col-md-3">
+                            <p class="roadmap-time">2018.11.30</p>
+                            <p class="roadmap_p">移除动态检查点保护功能</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="carousel-example-generic3" class="carousel slide visible-xs " data-ride="carousel"
+             style="height: 316px;overflow: hidden">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#carousel-example-generic3" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-example-generic3" data-slide-to="1"></li>
+                <li data-target="#carousel-example-generic3" data-slide-to="2"></li>
+                <li data-target="#carousel-example-generic3" data-slide-to="3"></li>
+                <!--<li data-target="#carousel-example-generic3" data-slide-to="4"></li>
+                <li data-target="#carousel-example-generic3" data-slide-to="5"></li>-->
+            </ol>
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner" role="listbox">
+                <!--<div class="item active">
+                    <div class="row">
+                        <div class="col-sm-6 col-md-3">
+                            <p class="roadmap-time">2017.11.10</p>
+                            <p class="roadmap_p">项目确立</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="row">
+                        <div class="col-sm-6 col-md-3">
+                            <p class="roadmap-time">2017.11.15</p>
+                            <p class="roadmap_p">官网正式上线</p>
+                        </div>
+                    </div>
+                </div>-->
+                <div class="item active">
+                    <div class="row">
+                        <div class="col-sm-6 col-md-3">
+                            <p class="roadmap-time">2017.12.12</p>
+                            <p class="roadmap_p">在498888高度分叉<br/>开始我们伟大的试验</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="row">
+                        <div class="col-sm-6 col-md-3">
+                            <p class="roadmap-time">2018.3.31</p>
+                            <p class="roadmap_p">上线智能合约<br/>增加BTC的可拓展性</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="row">
+                        <div class="col-sm-6 col-md-3">
+                            <p class="roadmap-time">2018.5.31</p>
+                            <p class="roadmap_p">上线零知识证明</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="row">
+                        <div class="col-sm-6 col-md-3">
+                            <p class="roadmap-time">2018.11.30</p>
+                            <p class="roadmap_p">移除动态检查点保护功能</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="team">
+    <div class="container">
+        <div id="team"></div>
+        <h2 class="feature_title">团队</h2>
+        <div class="row hidden-xs hidden-sm">
+            <div class=" col-md-6" id="ren2-w">
+                <div class="team-zone">
+                    <div class="row">
+                        <div id="ren2-min" style="display: none">
+                            <img class="ren-img" id="ren2" src="img/ren3.jpg">
+                            <p class="ren-name-min">Ranger</p>
+                        </div>
+                        <div id="ren2-big">
+                            <div class="col-md-5">
+                                <img class="ren-img-big" src="img/ren3.jpg">
+                            </div>
+                            <div class="col-md-7">
+                                <p class="ren-name">Ranger</p>
+                                <p class="ren-job">首席科学家</p>
+                                <div class="ren-lx-zone">
+                                    <a class="lx_ico1" target="_blank" href="https://www.facebook.com/shi.ranger">
+                                        <img class="lx_ico" src="img/lx_ico1_h.png">
+                                    </a>
+                                    <a class="lx_ico2" target="_blank" href="https://twitter.com/rangershi">
+                                        <img class="lx_ico" src="img/lx_ico2_h.png">
+                                    </a>
+                                    <!--<a class="lx_ico_no">
+                                        <img class="lx_ico" src="img/lx_no_ico3.png">
+                                    </a>
+                                    <a class="lx_ico_no">
+                                        <img class="lx_ico" src="img/lx_no_ico4.png">
+                                    </a>
+                                    <a class="lx_ico_no">
+                                        <img class="lx_ico" src="img/lx_no_ico5.png">
+                                    </a>-->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3" id="ren1-w">
+                <div class="team-zone">
+                    <div class="row">
+                        <div id="ren1-min">
+                            <img class="ren-img" id="ren1" src="img/ren1.jpg">
+                            <p class="ren-name-min">李笑来</p>
+                        </div>
+                        <div id="ren1-big" style="display: none">
+                            <div class="col-md-5">
+                                <img class="ren-img-big" src="img/ren1.jpg">
+                            </div>
+                            <div class="col-md-7">
+                                <p class="ren-name">李笑来</p>
+                                <p class="ren-job">基金会成员</p>
+                                <div class="ren-lx-zone">
+                                    <a class="lx_ico1" target="_blank" href="https://www.facebook.com/xiaolai">
+                                        <img class="lx_ico" src="img/lx_ico1_h.png">
+                                    </a>
+                                    <a class="lx_ico2" target="_blank" href="https://twitter.com/xiaolai">
+                                        <img class="lx_ico" src="img/lx_ico2_h.png">
+                                    </a>
+                                    <a class="lx_ico4" target="_blank"
+                                       href="https://weibo.com/bylixiaolai?topnav=1&wvr=6&topsug=1&is_all=1">
+                                        <img class="lx_ico" src="img/lx_ico4_h.png">
+                                    </a>
+                                    <a class="lx_ico5" target="_blank" href="https://www.linkedin.com/in/lixiaolai">
+                                        <img class="lx_ico" src="img/lx_ico5_h.png">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class=" col-md-3" id="ren3-w">
+                <div class="team-zone">
+                    <div class="row">
+                        <div id="ren3-min">
+                            <img class="ren-img" id="ren3" src="img/ren2.jpg">
+                            <p class="ren-name-min">林嘉鹏</p>
+                        </div>
+                        <div id="ren3-big" style="display: none">
+                            <div class="col-md-5">
+                                <img class="ren-img-big" src="img/ren2.jpg">
+                            </div>
+                            <div class="col-md-7">
+                                <p class="ren-name">林嘉鹏</p>
+                                <p class="ren-job">基金会成员</p>
+                                <div class="ren-lx-zone">
+                                    <!--<a class="lx_ico_no">
+                                        <img class="lx_ico" src="img/lx_no_ico1.png">
+                                    </a>
+                                    <a class="lx_ico_no">
+                                        <img class="lx_ico" src="img/lx_no_ico2.png">
+                                    </a>
+                                    <a class="lx_ico_no">
+                                        <img class="lx_ico" src="img/lx_no_ico3.png">
+                                    </a>-->
+                                    <a class="lx_ico4" target="_blank" href="https://www.weibo.com/3155379">
+                                        <img class="lx_ico" src="img/lx_ico4_h.png">
+                                    </a>
+                                    <a class="lx_ico5" target="_blank" href="https://www.linkedin.com/in/linjiapeng">
+                                        <img class="lx_ico" src="img/lx_ico5_h.png">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row visible-xs visible-sm">
+            <div class=" col-md-3">
+                <div class="team-zone">
+                    <div class="row">
+                        <div>
+                            <img class="ren-img" src="img/ren3.jpg">
+                            <p class="ren-name-min">Ranger</p>
+                            <p class="ren-job">首席科学家</p>
+                            <div class="ren-lx-zone">
+                                <a class="lx_ico1" target="_blank" href="https://www.facebook.com/shi.ranger">
+                                    <img class="lx_ico" src="img/lx_ico1_h.png">
+                                </a>
+                                <a class="lx_ico2" target="_blank" href="https://twitter.com/rangershi">
+                                    <img class="lx_ico" src="img/lx_ico2_h.png">
+                                </a>
+                                <!-- <a class="lx_ico_no">
+                                     <img class="lx_ico" src="img/lx_no_ico3.png">
+                                 </a>
+                                 <a class="lx_ico_no">
+                                     <img class="lx_ico" src="img/lx_no_ico4.png">
+                                 </a>
+                                 <a class="lx_ico_no">
+                                     <img class="lx_ico" src="img/lx_no_ico5.png">
+                                 </a>-->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="team-zone">
+                    <div class="row">
+                        <div>
+                            <img class="ren-img" src="img/ren1.jpg">
+                            <p class="ren-name-min">李笑来</p>
+                            <p class="ren-job">基金会成员</p>
+                            <div class="ren-lx-zone">
+                                <a class="lx_ico1" target="_blank" href="https://www.facebook.com/xiaolai">
+                                    <img class="lx_ico" src="img/lx_ico1_h.png">
+                                </a>
+                                <a class="lx_ico2" target="_blank" href="https://twitter.com/xiaolai">
+                                    <img class="lx_ico" src="img/lx_ico2_h.png">
+                                </a>
+                                <a class="lx_ico4" target="_blank"
+                                   href="https://weibo.com/bylixiaolai?topnav=1&wvr=6&topsug=1&is_all=1">
+                                    <img class="lx_ico" src="img/lx_ico4_h.png">
+                                </a>
+                                <a class="lx_ico5" target="_blank" href="https://www.linkedin.com/in/lixiaolai">
+                                    <img class="lx_ico" src="img/lx_ico5_h.png">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class=" col-md-3">
+                <div class="team-zone">
+                    <div class="row">
+                        <div>
+                            <img class="ren-img" src="img/ren2.jpg">
+                            <p class="ren-name-min">林嘉鹏</p>
+                            <p class="ren-job">基金会成员</p>
+                            <div class="ren-lx-zone">
+                                <!-- <a class="lx_ico_no">
+                                     <img class="lx_ico" src="img/lx_no_ico1.png">
+                                 </a>
+                                 <a class="lx_ico_no">
+                                     <img class="lx_ico" src="img/lx_no_ico2.png">
+                                 </a>
+                                 <a class="lx_ico_no">
+                                     <img class="lx_ico" src="img/lx_no_ico3.png">
+                                 </a>-->
+                                <a class="lx_ico4" target="_blank" href="https://www.weibo.com/3155379">
+                                    <img class="lx_ico" src="img/lx_ico4_h.png">
+                                </a>
+                                <a class="lx_ico5" target="_blank" href="https://www.linkedin.com/in/linjiapeng">
+                                    <img class="lx_ico" src="img/lx_ico5_h.png">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="faq">
+    <div class="container">
+        <div id="faq"></div>
+        <h2 class="feature_title">FAQ</h2>
+        <div class="row">
+            <div class="col-sm-12" id="faq-zone">
+                <div class=" faq-zone">
+                    <div class="up-down">
+                        <img class="up-down-img" src="img/up.png">
+                    </div>
+                    <div class="faq-title">
+                        <div class="faq-dian">
+                            <i></i>
+                        </div>
+                        <div class="title-p">
+                            <p> 超级比特币(SBTC)是什么？</p>
+                        </div>
+                    </div>
+                    <div class="faq-a">
+                        历时3年的比特币扩容之争严重阻滞了比特币的发展进程，与此同时，更是遭遇以太坊，Zcash等创新币种的强势围攻，丧失了巨量的市场份额。扼腕叹息之余，遂开始集聚社区内众多极客，决意为比特币的继续前进注入新的动力，此举更是荣获多位颇具威望的社区领袖的赞许与支持。
+                        我们将在498888的高度进行分叉试验，为比特币加入新的特性。分叉成功后，之前留存有比特币的地址上将按1：1的比例获赠同样数量的SBTC。
+                    </div>
+                </div>
+                <div class=" faq-zone">
+                    <div class="up-down">
+                        <img class="up-down-img" src="img/down.png">
+                    </div>
+                    <div class="faq-title">
+                        <div class="faq-dian">
+                            <i></i>
+                        </div>
+                        <div class="title-p">
+                            <p>SBTC的总量是多少？</p>
+                        </div>
+                    </div>
+                    <div class="faq-a" style="display: none">
+                        SBTC 总量 2121万，其中21万为分叉预挖。
+                    </div>
+                </div>
+                <div class=" faq-zone">
+                    <div class="up-down">
+                        <img class="up-down-img" src="img/down.png">
+                    </div>
+                    <div class="faq-title">
+                        <div class="faq-dian">
+                            <i></i>
+                        </div>
+                        <div class="title-p">
+                            <p>预挖SBTC的用途？</p>
+                        </div>
+                    </div>
+                    <div class="faq-a" style="display: none">
+                        21万SBTC归基金会管理,主要用于激励早期开发者、投资生态建设、基金会运营。
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--<div>-->
+            <!--<h2 class="feature_title">资源</h2>-->
+            <!--<div class="row" style="text-align:center">-->
+                <!--<a class="" target="_blank" href="https://t.me/superbitcoinofficial">-->
+                    <!--<img class="what-img resource-img" src="img/telegram.png">-->
+                <!--</a>-->
+                <!--<a class="" target="_blank" href="https://business.facebook.com/SBTC-1494328043999669">-->
+                    <!--<img class="what-img resource-img" src="img/facebook.png">-->
+                <!--</a>-->
+                <!--<a class="" target="_blank" href="https://twitter.com/SuperBTC2">-->
+                    <!--<img class="what-img resource-img" src="img/twitter.png">-->
+                <!--</a>-->
+                <!--<a class="" target="_blank" href="https://github.com/superbitcoin/SuperBitcoin">-->
+                    <!--<img class="what-img resource-img" src="img/github.png">-->
+                <!--</a>-->
+                <!--<a class="" target="_blank" href="https://medium.com/@sbtc.org">-->
+                    <!--<img class="what-img resource-img" src="img/medium.png">-->
+                <!--</a>-->
+                <!--<a class="" target="_blank"-->
+                   <!--href="http://doc.superbtc.org/en/developer-reference.html#block-chain">-->
+                    <!--<img class="what-img resource-img" src="img/doc.png">-->
+                <!--</a>-->
+                <!--&lt;!&ndash;<a class="" target="_blank" href="http://www.github.com">&ndash;&gt;-->
+                <!--&lt;!&ndash;<img class="what-img resource-img" src="img/blockchain-brower.png">&ndash;&gt;-->
+                <!--&lt;!&ndash;</a>&ndash;&gt;-->
+            <!--</div>-->
+        <!--</div>-->
+    </div>
+</div>
+<div class="team">
+    <div class="container">
+        <div id="support"></div>
+        <h2 class="feature_title">支持</h2>
+        <div class="row" style="text-align: center">
+            <div class="support_tittle">交易所</div>
+            <a href="https://www.okex.com/" class="support_a">
+                <img src="img/sp_ok.png">
+            </a>
+            <a href="https://www.huobi.pro/zh-cn/" class="support_a">
+                <img src="img/sp_hb.png">
+            </a>
+            <a href="https://big.one/" class="support_a">
+                <img src="img/sp_bigone.png">
+            </a>
+            <a href="https://www.bitfinex.com/" class="support_a">
+                <img src="img/sp_bitfinex.png">
+            </a>
+            <a href="https://www.binance.com/" class="support_a">
+                <img src="img/sp_binance.png">
+            </a>
+            <a href="https://www.zb.com/" class="support_a">
+                <img src="img/sp_zb.png">
+            </a>
+            <a href="https://www.btctrade.im/" class="support_a">
+                <img src="img/sp_btctrade.png">
+            </a>
+            <a href="https://coinut.com/" class="support_a">
+                <img src="img/sp_coinut.png">
+            </a>
+            <a href="https://gate.io/" class="support_a">
+                <img src="img/spgateio.png">
+            </a>
+            <a href="https://hitbtc.com" class="support_a">
+                <img src="img/sp_hitbtc.png">
+            </a>
+            <a href="https://www.bibox.com/" class="support_a">
+                <img src="img/sp_bibox.png">
+            </a>
+            <a href="https://www.coinegg.com/" class="support_a">
+                <img src="img/sp_coinegg.png">
+            </a>
+            <a href="https://coin900.com/" class="support_a">
+                <img src="img/sp_coin900.png">
+            </a>
+            <a href="https://www.exx.com/" class="support_a">
+                <img src="img/sp_exx.png">
+            </a>
+            <a href="https://www.aex.com/" class="support_a">
+                <img src="img/sp_aex.png">
+            </a>
+            <a href="https://www.shuzibi.com/" class="support_a">
+                <img src="img/sp_szb.png">
+            </a>
+            <a href="https://trade.coincoming.com/" class="support_a">
+                <img src="img/sp_coincoming.png">
+            </a>
+            <a href="https://cex.com/" class="support_a">
+                <img src="img/sp_cex.png">
+            </a>
+            <a href="https://kkex.com/" class="support_a">
+                <img src="img/sp_kkex.png">
+            </a>
+            <a href="https://www.biex.com" class="support_a">
+                <img src="img/sp_biex.png">
+            </a>
+            <a href="http://www.coinbene.com/" class="support_a">
+                <img src="img/sp_coinbene.png">
+            </a>
+            <a href="https://www.bcex.ca/coins" class="support_a">
+                <img src="img/sp_yb.png">
+            </a>
+            <a href="https://www.firefoxotc.com" class="support_a">
+                <img src="img/sp_hhl.png">
+            </a>
+        </div>
+        <div class="row" style="text-align: center">
+            <div class="support_tittle">矿池</div>
+            <a href="https://www.f2pool.com/" class="support_a">
+                <img src="img/sp_f2pool.png">
+            </a>
+            <a href="https://www.btcchina.com/" class="support_a">
+                <img src="img/sp_btcc.png">
+            </a>
+        </div>
+        <div class="row" style="text-align: center">
+            <div class="support_tittle">钱包</div>
+            <a href="https://bixin.com/" class="support_a">
+                <img src="img/sp_bx.png">
+            </a>
+            <a href="http://bitpie.com/" class="support_a">
+                <img src="img/sp_bitpie.png">
+            </a>
+            <a href="https://www.coldlar.com/home/home" class="support_a">
+                <img src="img/sp_kushen.png">
+            </a>
+            <a href="http://www.bying.io/" class="support_a">
+                <img src="img/sp_bying.png">
+            </a>
+            <a href="https://www.electrum.org/#home" class="support_a">
+                <img src="img/sp_electrum.png">
+            </a>
+        </div>
+        <div class="row" style="text-align: center">
+            <div class="support_tittle">媒体&社区</div>
+            <a href="http://www.jinse.com/" class="support_a">
+                <img src="img/sp_jscj.png">
+            </a>
+            <a href="http://www.chainfor.com/" class="support_a">
+                <img src="img/sp_lxcj.png">
+            </a>
+            <a href="https://www.aicoin.net.cn/" class="support_a">
+                <img src="img/sp_aicoin.png">
+            </a>
+            <a href="https://www.bbex.io/" class="support_a">
+                <img src="img/sp_bbex.png">
+            </a>
+            <a href="http://8btc.com/forum-179-1.html" class="support_a">
+                <img src="img/sp_bbt.png">
+            </a>
+            <a href="http://www.mytoken.io/" class="support_a">
+                <img src="img/sp_mytoken.png">
+            </a>
+            <a href="http://www.jinniu.cn/" class="support_a">
+                <img src="img/sp_jncj.png">
+            </a>
+            <a href="http://www.leilook.com/" class="support_a">
+                <img src="img/sp_llcj.png">
+            </a>
+            <a href="http://www.jgy.com/" class="support_a">
+                <img src="img/sp_jgy.png">
+            </a>
+            <a href="http://www.bitcoin86.com/" class="support_a">
+                <img src="img/sp_bitcoin86.png">
+            </a>
+        </div>
+        <h2 class="feature_title" style="padding-top: 80px;padding-bottom: 30px">资源</h2>
+        <div>
+            <a class="" target="_blank" href="https://t.me/superbitcoinofficial">
+                <img class="resource-img" src="img/telegram.png">
+            </a>
+            <a class="" target="_blank" href="https://business.facebook.com/SBTC-1494328043999669">
+                <img class="resource-img" src="img/facebook.png">
+            </a>
+            <a class="" target="_blank" href="https://twitter.com/SuperBTC2">
+                <img class="resource-img" src="img/twitter.png">
+            </a>
+            <a class="" target="_blank" href="https://github.com/superbitcoin/SuperBitcoin">
+                <img class="resource-img" src="img/github.png">
+            </a>
+            <a class="" target="_blank"
+               href="https://medium.com/@sbtc.org">
+                <img class="resource-img" src="img/medium.png">
+            </a>
+            <a class="" target="_blank"
+               href="http://doc.superbtc.org/en/developer-reference.html#block-chain">
+                <img class="resource-img" src="img/doc.png">
+            </a>
+            <!--<a class="" target="_blank" href="#">-->
+            <!--<img class="what-img resource-img" src="img/blockchain-brower.png">-->
+            <!--</a>-->
+        </div>
+    </div>
+</div>
+<div>
+    <div class="bottom-line"
+         style="width: 100%;background: #434343;padding-bottom: 20px;padding-top: 20px;text-align: center;">
+        <a style="color: #ffffff;font-size: 16px">Copyright © 2017 Superbitcoin All rights reserved</a>
+        <a style="color: #ffffff;margin-left: 20px;margin-right: 20px;font-size: 16px">联系我们: next@superbitcoin.org</a>
+        <a style="color: #ffffff" href="https://github.com/Zzitao/supersmartbitcoin.com.git">
+            <img style="width: 24px" src="img/github.png"/>
+        </a>
+    </div>
+</div>
+
+<!-- Bootstrap core JavaScript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+<script src="js/ie10-viewport-bug-workaround.js"></script>
+<script>
+    $(document).ready(function () {
+        $("#ren1").mouseenter(function () {
+            $("#ren2-w").removeClass("col-md-6");
+            $("#ren2-w").addClass("col-md-3");
+            $("#ren1-w").removeClass("col-md-3");
+            $("#ren1-w").addClass("col-md-6");
+            $("#ren3-w").removeClass("col-md-6");
+            $("#ren3-w").addClass("col-md-3");
+            $("#ren2-big").hide();
+            $("#ren2-min").show();
+            $("#ren1-big").show();
+            $("#ren1-min").hide();
+            $("#ren3-big").hide();
+            $("#ren3-min").show();
+        });
+        $("#ren2").mouseenter(function () {
+            $("#ren1-w").removeClass("col-md-6");
+            $("#ren1-w").addClass("col-md-3");
+            $("#ren2-w").removeClass("col-md-3");
+            $("#ren2-w").addClass("col-md-6");
+            $("#ren3-w").removeClass("col-md-6");
+            $("#ren3-w").addClass("col-md-3");
+            $("#ren1-big").hide();
+            $("#ren1-min").show();
+            $("#ren2-big").show();
+            $("#ren2-min").hide();
+            $("#ren3-big").hide();
+            $("#ren3-min").show();
+        });
+        $("#ren3").mouseenter(function () {
+            $("#ren1-w").removeClass("col-md-6");
+            $("#ren1-w").addClass("col-md-3");
+            $("#ren3-w").removeClass("col-md-3");
+            $("#ren3-w").addClass("col-md-6");
+            $("#ren2-w").removeClass("col-md-6");
+            $("#ren2-w").addClass("col-md-3");
+            $("#ren1-big").hide();
+            $("#ren1-min").show();
+            $("#ren3-big").show();
+            $("#ren3-min").hide();
+            $("#ren2-big").hide();
+            $("#ren2-min").show();
+        });
+        $("#faq-zone img").click(function () {
+            $(this).parents(".faq-zone").siblings().children(".faq-a").hide();
+            $(this).parents(".up-down").siblings(".faq-a").fadeIn("slow");
+        });
+        $(".faq-title").click(function () {
+            $(this).parents(".faq-zone").siblings().children(".faq-a").hide();
+            $(this).siblings(".faq-a").fadeIn("slow");
+            $(".up-down-img").attr("src", "img/down.png");
+            $(this).siblings(".up-down").children("img").attr("src", "img/up.png");
+
+        });
+        $(".lx_ico1").mouseenter(function () {
+            $(".lx_ico1").children("img").attr("src", "img/lx_ico1_h.png");
+            $(".lx_ico2").children("img").attr("src", "img/lx_ico2_h.png");
+            $(".lx_ico3").children("img").attr("src", "img/lx_ico3_h.png");
+            $(".lx_ico4").children("img").attr("src", "img/lx_ico4_h.png");
+            $(".lx_ico5").children("img").attr("src", "img/lx_ico5_h.png");
+            $(this).children("img").attr("src", "img/lx_ico1.png");
+        });
+        $(".lx_ico2").mouseenter(function () {
+            $(".lx_ico1").children("img").attr("src", "img/lx_ico1_h.png");
+            $(".lx_ico2").children("img").attr("src", "img/lx_ico2_h.png");
+            $(".lx_ico3").children("img").attr("src", "img/lx_ico3_h.png");
+            $(".lx_ico4").children("img").attr("src", "img/lx_ico4_h.png");
+            $(".lx_ico5").children("img").attr("src", "img/lx_ico5_h.png");
+            $(this).children("img").attr("src", "img/lx_ico2.png");
+        });
+        $(".lx_ico3").mouseenter(function () {
+            $(".lx_ico1").children("img").attr("src", "img/lx_ico1_h.png");
+            $(".lx_ico2").children("img").attr("src", "img/lx_ico2_h.png");
+            $(".lx_ico3").children("img").attr("src", "img/lx_ico3_h.png");
+            $(".lx_ico4").children("img").attr("src", "img/lx_ico4_h.png");
+            $(".lx_ico5").children("img").attr("src", "img/lx_ico5_h.png");
+            $(this).children("img").attr("src", "img/lx_ico3.png");
+        });
+        $(".lx_ico4").mouseenter(function () {
+            $(".lx_ico1").children("img").attr("src", "img/lx_ico1_h.png");
+            $(".lx_ico2").children("img").attr("src", "img/lx_ico2_h.png");
+            $(".lx_ico3").children("img").attr("src", "img/lx_ico3_h.png");
+            $(".lx_ico4").children("img").attr("src", "img/lx_ico4_h.png");
+            $(".lx_ico5").children("img").attr("src", "img/lx_ico5_h.png");
+            $(this).children("img").attr("src", "img/lx_ico4.png");
+        });
+        $(".lx_ico5").mouseenter(function () {
+            $(".lx_ico1").children("img").attr("src", "img/lx_ico1_h.png");
+            $(".lx_ico2").children("img").attr("src", "img/lx_ico2_h.png");
+            $(".lx_ico3").children("img").attr("src", "img/lx_ico3_h.png");
+            $(".lx_ico4").children("img").attr("src", "img/lx_ico4_h.png");
+            $(".lx_ico5").children("img").attr("src", "img/lx_ico5_h.png");
+            $(this).children("img").attr("src", "img/lx_ico5.png");
+        });
+        $(".my-nav a").click(function () {
+            $(".my-nav a").removeClass("violet");
+            $(this).addClass("violet");
+        });
+        $("#home-btn").click(function () {
+            var speed = 600;//滑动的速度
+            $('body,html').animate({scrollTop: 0}, speed);
+            return false;
+        });
+        $("#feature-btn").click(function () {
+            var speed = 600;//滑动的速度
+            $('body,html').animate({scrollTop: 500}, speed);
+            return false;
+        });
+        $("#roadmap-btn").click(function () {
+            var speed = 600;//滑动的速度
+            $('body,html').animate({scrollTop: 1450}, speed);
+            return false;
+        });
+        $("#team-btn").click(function () {
+            var speed = 600;//滑动的速度
+            $('body,html').animate({scrollTop: 1850}, speed);
+            return false;
+        });
+        $("#faq-btn").click(function () {
+            var speed = 600;//滑动的速度
+            $('body,html').animate({scrollTop: 2500}, speed);
+            return false;
+        });
+        $("#resource-btn").click(function () {
+            var speed = 600;//滑动的速度
+            $('body,html').animate({scrollTop: 4200}, speed);
+            return false;
+        });
+        $("#support-btn").click(function () {
+            var speed = 600;//滑动的速度
+            $('body,html').animate({scrollTop: 3500}, speed);
+            return false;
+        });
+    });
+</script>
+<div style='display:none'>
+    <script src="https://s22.cnzz.com/z_stat.php?id=1269821151&web_id=1269821151" language="JavaScript"></script>
+</div>
+</body>
+</html>
